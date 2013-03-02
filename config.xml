@@ -1,0 +1,39 @@
+﻿<cmp 
+	name = "欢迎光临高清影视" 
+	link = "" 
+	description = "欢迎光临高清影视"
+	logo = "{src:logo.png,xywh:[10R,10R,0,0]}"
+	skins = "skins/default.zip"
+	
+	announce_content = "欢迎光临高清影视"
+	announce_xywh = "0,0,100P,20"
+    announce_speed = "1"
+	plugins = "plugins/ads.swf,plugins/announce.swf,plugins/capture.swf"
+	
+	ads = "{src:ad.jpg,link:,link_target:_blank,width:320,height:240,duration:5,onstate:playing,target:video},{src:ad.jpg,link:,duration:8,onstate:stopped},{src:ad.jpg,onstate:paused,target:video}"
+ 
+	capture_x = "10"
+	capture_y = "10"
+	
+	
+	 
+	fullscreen_max = "323"
+ 
+	backgrounds = ""
+	lists = ""
+	
+	src_handler = "" 
+	lrc_handler = ""
+
+	skin_id = ""
+
+	play_id = ""
+	auto_play = "1"
+	list_delete = ""
+	
+	sound_sample = "true"
+	mixer_displace = "true"
+	mixer_filter = "true"
+	
+	counter = ""
+/>
